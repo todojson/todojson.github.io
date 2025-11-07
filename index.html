@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Archivos JSON</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📦 Gestor de Archivos JSON</h1>
+            <p class="subtitle">Visualiza y accede a tus archivos JSON para usar en tus proyectos</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Buscar archivos JSON...">
+            </div>
+            
+            <div class="actions">
+                <button id="addJsonBtn" class="btn-primary">
+                    ➕ Agregar JSON
+                </button>
+                <button id="refreshBtn" class="btn-secondary">
+                    🔄 Actualizar
+                </button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <span class="stat-number" id="totalFiles">0</span>
+                <span class="stat-label">Total de Archivos</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="totalRecords">0</span>
+                <span class="stat-label">Total de Registros</span>
+            </div>
+        </div>
+
+        <div id="jsonContainer" class="json-grid">
+            <!-- Los archivos JSON se cargarán aquí -->
+        </div>
+
+        <div id="noResults" class="no-results" style="display: none;">
+            <p>😔 No se encontraron archivos JSON</p>
+        </div>
+    </div>
+
+    <!-- Modal para ver JSON -->
+    <div id="jsonModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Archivo JSON</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-actions">
+                    <button id="copyUrlBtn" class="btn-secondary">📋 Copiar URL</button>
+                    <button id="copyDataBtn" class="btn-secondary">📄 Copiar JSON</button>
+                    <button id="downloadBtn" class="btn-secondary">💾 Descargar</button>
+                </div>
+                <pre id="jsonContent" class="json-viewer"></pre>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Gestor de Archivos JSON - GitHub Pages © 2025</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

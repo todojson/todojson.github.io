@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "nombre": "Revisar propuesta de cliente nuevo",
+    "descripcion": "Analizar la propuesta comercial del cliente TechCorp y preparar cotización detallada",
+    "fecha_registro": "2025-10-15",
+    "fecha_fin": "2025-10-20",
+    "categoria": "Ventas",
+    "isCompleted": true
+  },
+  {
+    "id": 2,
+    "nombre": "Actualizar documentación API",
+    "descripcion": "Documentar los nuevos endpoints de la API REST versión 2.0",
+    "fecha_registro": "2025-10-18",
+    "fecha_fin": "2025-11-05",
+    "categoria": "Desarrollo",
+    "isCompleted": false
+  },
+  {
+    "id": 3,
+    "nombre": "Reunión semanal de equipo",
+    "descripcion": "Stand-up meeting con el equipo de desarrollo para revisar avances del sprint",
+    "fecha_registro": "2025-11-01",
+    "fecha_fin": "2025-11-07",
+    "categoria": "Reuniones",
+    "isCompleted": true
+  },
+  {
+    "id": 4,
+    "nombre": "Implementar sistema de notificaciones",
+    "descripcion": "Desarrollar módulo de notificaciones push para la aplicación móvil",
+    "fecha_registro": "2025-10-20",
+    "fecha_fin": "2025-11-15",
+    "categoria": "Desarrollo",
+    "isCompleted": false
+  },
+  {
+    "id": 5,
+    "nombre": "Revisar CV de candidatos",
+    "descripcion": "Evaluar los perfiles recibidos para la posición de desarrollador senior",
+    "fecha_registro": "2025-10-25",
+    "fecha_fin": "2025-11-03",
+    "categoria": "Recursos Humanos",
+    "isCompleted": true
+  },
+  {
+    "id": 6,
+    "nombre": "Preparar presentación Q4",
+    "descripcion": "Crear slides con resultados del cuarto trimestre para la junta directiva",
+    "fecha_registro": "2025-11-02",
+    "fecha_fin": "2025-11-12",
+    "categoria": "Administración",
+    "isCompleted": false
+  },
+  {
+    "id": 7,
+    "nombre": "Backup de base de datos",
+    "descripcion": "Realizar respaldo completo de la base de datos de producción",
+    "fecha_registro": "2025-11-05",
+    "fecha_fin": "2025-11-06",
+    "categoria": "Infraestructura",
+    "isCompleted": true
+  },
+  {
+    "id": 8,
+    "nombre": "Capacitación en ciberseguridad",
+    "descripcion": "Asistir al workshop de seguridad informática y mejores prácticas",
+    "fecha_registro": "2025-10-28",
+    "fecha_fin": "2025-11-08",
+    "categoria": "Capacitación",
+    "isCompleted": false
+  },
+  {
+    "id": 9,
+    "nombre": "Optimizar rendimiento del sitio",
+    "descripcion": "Mejorar tiempos de carga reduciendo el tamaño de imágenes y scripts",
+    "fecha_registro": "2025-10-22",
+    "fecha_fin": "2025-11-10",
+    "categoria": "Desarrollo",
+    "isCompleted": false
+  },
+  {
+    "id": 10,
+    "nombre": "Llamada con proveedor de hosting",
+    "descripcion": "Negociar renovación del contrato de hosting y solicitar upgrade de plan",
+    "fecha_registro": "2025-11-01",
+    "fecha_fin": "2025-11-04",
+    "categoria": "Administración",
+    "isCompleted": true
+  },
+  {
+    "id": 11,
+    "nombre": "Diseñar mockups de nueva landing",
+    "descripcion": "Crear prototipos en Figma para la nueva página de aterrizaje del producto",
+    "fecha_registro": "2025-10-30",
+    "fecha_fin": "2025-11-14",
+    "categoria": "Diseño",
+    "isCompleted": false
+  },
+  {
+    "id": 12,
+    "nombre": "Actualizar dependencias del proyecto",
+    "descripcion": "Actualizar librerías de Node.js a sus últimas versiones estables",
+    "fecha_registro": "2025-11-03",
+    "fecha_fin": "2025-11-09",
+    "categoria": "Desarrollo",
+    "isCompleted": false
+  },
+  {
+    "id": 13,
+    "nombre": "Auditoría de seguridad",
+    "descripcion": "Ejecutar análisis de vulnerabilidades en la aplicación web",
+    "fecha_registro": "2025-10-26",
+    "fecha_fin": "2025-11-11",
+    "categoria": "Seguridad",
+    "isCompleted": false
+  },
+  {
+    "id": 14,
+    "nombre": "Enviar reporte mensual",
+    "descripcion": "Compilar y enviar el informe de métricas de octubre a stakeholders",
+    "fecha_registro": "2025-10-31",
+    "fecha_fin": "2025-11-02",
+    "categoria": "Administración",
+    "isCompleted": true
+  },
+  {
+    "id": 15,
+    "nombre": "Configurar pipeline CI/CD",
+    "descripcion": "Implementar integración continua con GitHub Actions para deploys automáticos",
+    "fecha_registro": "2025-10-24",
+    "fecha_fin": "2025-11-13",
+    "categoria": "DevOps",
+    "isCompleted": false
+  },
+  {
+    "id": 16,
+    "nombre": "Entrevista con candidato frontend",
+    "descripcion": "Realizar entrevista técnica a candidato para posición de React developer",
+    "fecha_registro": "2025-11-04",
+    "fecha_fin": "2025-11-07",
+    "categoria": "Recursos Humanos",
+    "isCompleted": true
+  },
+  {
+    "id": 17,
+    "nombre": "Investigar nuevas tecnologías IA",
+    "descripcion": "Explorar posibilidades de integrar ChatGPT API en el producto",
+    "fecha_registro": "2025-10-29",
+    "fecha_fin": "2025-11-16",
+    "categoria": "Investigación",
+    "isCompleted": false
+  },
+  {
+    "id": 18,
+    "nombre": "Corregir bugs reportados",
+    "descripcion": "Resolver los 5 issues críticos reportados en el sistema de tickets",
+    "fecha_registro": "2025-11-02",
+    "fecha_fin": "2025-11-08",
+    "categoria": "Desarrollo",
+    "isCompleted": false
+  },
+  {
+    "id": 19,
+    "nombre": "Renovar certificado SSL",
+    "descripcion": "Actualizar certificado SSL del dominio principal antes de su vencimiento",
+    "fecha_registro": "2025-10-27",
+    "fecha_fin": "2025-11-01",
+    "categoria": "Infraestructura",
+    "isCompleted": true
+  },
+  {
+    "id": 20,
+    "nombre": "Planificar sprint siguiente",
+    "descripcion": "Definir user stories y estimaciones para el sprint 12",
+    "fecha_registro": "2025-11-05",
+    "fecha_fin": "2025-11-10",
+    "categoria": "Gestión de Proyecto",
+    "isCompleted": false
+  },
+  {
+    "id": 21,
+    "nombre": "Crear campaña de marketing",
+    "descripcion": "Diseñar estrategia de email marketing para el lanzamiento del Q1 2026",
+    "fecha_registro": "2025-10-21",
+    "fecha_fin": "2025-11-18",
+    "categoria": "Marketing",
+    "isCompleted": false
+  },
+  {
+    "id": 22,
+    "nombre": "Migrar datos a nuevo servidor",
+    "descripcion": "Transferir bases de datos del servidor antiguo al nuevo VPS",
+    "fecha_registro": "2025-10-23",
+    "fecha_fin": "2025-11-05",
+    "categoria": "Infraestructura",
+    "isCompleted": true
+  },
+  {
+    "id": 23,
+    "nombre": "Escribir tests unitarios",
+    "descripcion": "Aumentar cobertura de tests al 80% en el módulo de autenticación",
+    "fecha_registro": "2025-11-01",
+    "fecha_fin": "2025-11-12",
+    "categoria": "Desarrollo",
+    "isCompleted": false
+  },
+  {
+    "id": 24,
+    "nombre": "Revisión de código del equipo",
+    "descripcion": "Code review de los pull requests pendientes en GitHub",
+    "fecha_registro": "2025-11-06",
+    "fecha_fin": "2025-11-07",
+    "categoria": "Desarrollo",
+    "isCompleted": false
+  },
+  {
+    "id": 25,
+    "nombre": "Actualizar política de privacidad",
+    "descripcion": "Revisar y actualizar términos de uso conforme a nuevas regulaciones",
+    "fecha_registro": "2025-10-19",
+    "fecha_fin": "2025-11-09",
+    "categoria": "Legal",
+    "isCompleted": false
+  },
+  {
+    "id": 26,
+    "nombre": "Configurar monitoreo de logs",
+    "descripcion": "Implementar sistema de logging centralizado con ELK Stack",
+    "fecha_registro": "2025-10-31",
+    "fecha_fin": "2025-11-17",
+    "categoria": "DevOps",
+    "isCompleted": false
+  },
+  {
+    "id": 27,
+    "nombre": "Análisis de competencia",
+    "descripcion": "Investigar features y pricing de los 3 competidores principales",
+    "fecha_registro": "2025-11-03",
+    "fecha_fin": "2025-11-15",
+    "categoria": "Investigación",
+    "isCompleted": false
+  },
+  {
+    "id": 28,
+    "nombre": "Refactorizar módulo de pagos",
+    "descripcion": "Limpiar código legacy del sistema de procesamiento de pagos",
+    "fecha_registro": "2025-10-17",
+    "fecha_fin": "2025-11-20",
+    "categoria": "Desarrollo",
+    "isCompleted": false
+  },
+  {
+    "id": 29,
+    "nombre": "Webinar sobre producto nuevo",
+    "descripcion": "Presentar demo en vivo del nuevo módulo de analytics a clientes",
+    "fecha_registro": "2025-11-04",
+    "fecha_fin": "2025-11-11",
+    "categoria": "Marketing",
+    "isCompleted": false
+  },
+  {
+    "id": 30,
+    "nombre": "Evaluación de desempeño del equipo",
+    "descripcion": "Realizar revisiones trimestrales con cada miembro del equipo",
+    "fecha_registro": "2025-10-16",
+    "fecha_fin": "2025-11-14",
+    "categoria": "Recursos Humanos",
+    "isCompleted": false
+  }
+]
